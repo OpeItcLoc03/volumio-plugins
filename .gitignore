@@ -12,3 +12,5 @@ node_modules/
 # Ignore all .DS_Store
 .DS_Store
 **/.DS_Store
+plugins/music_service/volusonic/package-lock.json
+plugins/music_service/youtube/package-lock.json

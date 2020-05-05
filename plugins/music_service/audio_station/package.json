@@ -1,0 +1,21 @@
+{
+	"name": "audio_station",
+	"version": "0.0.1",
+	"description": "Synology Audio Station plugin for Volumio 2",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Victor Kuznetsov",
+	"license": "ISC",
+	"volumio_info": {
+		"prettyName": "Synology Audio Station",
+		"icon": "fa-music",
+		"plugin_type": "music_service"
+	},
+	"dependencies": {
+		"fs-extra": "^0.28.0",
+		"kew": "^0.7.0",
+		"v-conf": "^1.4.0"
+	}
+}
